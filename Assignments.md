@@ -150,3 +150,128 @@ $ ./string_compression.sh
 Enter a string: aabcccccaaa
 Compressed string: a2b1c5a3
 ```
+
+## Assignment 4 : Patterns
+
+- Write a shell script to generate a right-angled star triangle pattern based on the input number of rows. Your script should take the number of rows as input and output the corresponding triangle pattern using asterisks (*).
+
+```
+Input: 5
+Expected Output:
+*
+**
+***
+****
+*****
+```
+
+- Write a shell script to generate an inverted right-angled star triangle. The script should take the number of rows as input and output the triangle accordingly. Ensure correctness by testing it with the public test case:
+
+```
+Input: 5
+Expected Output:
+*****
+ ****
+  ***
+   **
+    *
+```
+
+- Write a shell script that generates a star pyramid pattern based on user input. The script should prompt the user to enter the number of rows for the pyramid. Then, it should implement the algorithm to print the pattern accordingly. Ensure the script includes proper indentation and adherence to the algorithm's steps.
+
+```
+Input: 5
+Expected Output:
+    *
+   ***
+  *****
+ *******
+*********
+```
+
+- Create a shell script to generate Pascal's Triangle with a specified number of rows. The script should take the number of rows as input and output the corresponding Pascal's Triangle. Test the script with the following public test case:
+
+```
+Input: 5
+Expected Output:
+         1
+       1   1
+     1   2   1
+   1   3   3   1
+ 1   4   6   4   1
+```
+
+## Assignment 5 : Arrays
+
+- Write a shell script named "array_size.sh" that takes space-separated numbers as input and outputs the size of the array. Ensure compatibility with Bash. Here's a test case:
+
+```
+Input:
+2 4 6 8 10
+
+Expected Output:
+The size of the array is 5
+```
+
+- Write a shell script named "ArrayInputOutput.sh" that takes an array of numbers as input and displays its elements. Your script should directly parse the elements, determining the array size at runtime. Including a public test case where the user enters the size followed by array elements :
+
+```
+Enter the size: 3
+Enter the elements of the array:
+3
+6
+9
+The elements of the array are:
+3
+6
+9
+```
+
+- Write a shell script to perform a linear search on an array of numbers. The script should prompt the user to input space-separated numbers for the array, followed by the number to search for. Then, it should output the position of the searched number if found, or a message stating it was not found. Here's a public test case:
+
+```
+Input:
+Enter space-separated numbers: 5 8 2 10 3
+Enter the number to search: 10
+
+Output:
+10 found in position #4
+```
+
+- Write a shell script to perform a binary search on a sorted array. The script should prompt the user to enter the sorted array of elements and the element to be searched. Then, it should call the binary_search function to find the element in the array. Finally, it should display the element with its position if found, otherwise, print a message indicating that the element was not found.
+
+```
+Input:
+Sorted array: 1 3 5 7 9
+Element to search: 5
+Output:
+Element found at position 3
+```
+
+- Write a shell script to implement Bubble Sort. The script should prompt the user to enter elements of an array, sort them using the Bubble Sort algorithm, and display the sorted array. Assume the input array is space-separated.
+
+```
+Input: 5 3 9 1 7
+Output: Sorted array: 1 3 5 7 9
+```
+
+- Create a shell script to perform Selection Sort on an array of numbers. Prompt the user to input elements of the array, sort them using Selection Sort, and display the sorted array. The script should handle integer and floating-point inputs. Assume the input array is space-separated.
+
+```
+Input: 8.2 3 6.5 1 4.7
+Output: Sorted array: 1 3 4.7 6.5 8.2
+```
+
+- Write a shell script to implement Insertion Sort. Prompt the user to input space-separated elements of an array, sort them using Insertion Sort, and display the sorted array. Ensure the script handles both integer and floating-point inputs.
+
+```
+Input: 5 2.5 9 1.2 7
+Output: Sorted array: 1.2 2.5 5 7 9
+```
+
+- Write a shell script to perform Quick Sort on an array of numbers. Prompt the user to input space-separated elements of the array, sort them using Quick Sort, and display the sorted array. Ensure the script handles both integer and floating-point inputs.
+
+```
+Input: 8 3 6 1 4
+Output: Sorted array: 1 3 4 6 8
+```
